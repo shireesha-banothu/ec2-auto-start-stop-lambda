@@ -1,0 +1,8 @@
+# CloudWatch EventBridge cron expressions for EC2 Start/Stop
+
+# Start EC2 instances at 10:00 AM IST daily
+cron(30 4 * * ? *)
+
+# Stop EC2 instances at 7:00 PM IST daily
+cron(30 13 * * ? *)
+
