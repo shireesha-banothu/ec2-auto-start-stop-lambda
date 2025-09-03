@@ -1,6 +1,6 @@
-🚀 Automating EC2 Start/Stop with AWS Lambda  
+ Automating EC2 Start/Stop with AWS Lambda  
 
-**📌 Project Overview  
+** Project Overview  
 This project demonstrates how to **automatically start and stop Amazon EC2 instances** using **AWS Lambda, CloudWatch Events, IAM, and SNS**.  
 
 - ⏰ **Start EC2 at 10:00 AM IST**  
@@ -11,7 +11,7 @@ This automation helps reduce AWS costs and ensures instances run only during bus
 
 ---
 
-## 🏗️ Architecture  
+## 🏗 Architecture  
 <img width="1024" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/f1e5cdff-91c5-4e98-a0a7-e59363cb8344" />
 
   
@@ -24,7 +24,7 @@ This automation helps reduce AWS costs and ensures instances run only during bus
 
 ---
 
-## ⚙️ Step-by-Step Implementation  
+##  Step-by-Step Implementation  
 
 ### **1. Create IAM Role & Policy**  
 - Go to **IAM → Roles → Create Role**.  
@@ -109,7 +109,7 @@ cron(30 13 * * ? *)
 
 ---
 
-## ⏳ Cron Expressions Used
+##  Cron Expressions Used
 
 ```
 # Start EC2 at 10 AM IST (4:30 UTC)
